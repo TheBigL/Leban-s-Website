@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+  <script src="https://use.fontawesome.com/53cf439673.js"></script>
+</head>
+<body>
+  <header>
+    <a class="name" href="main-en"><h1>Leban Mohamed</h1></a>
+    <H2>Software, Mobile and Web Developer</H2>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="about-me.html">About Me</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">JavaScript Projects</a></li>
+      </ul>
+    </nav>
+
+
+  </header>
+  <div class="container">
+
+    <div class="self-intro">
+      <h3>Welcome to my website!</h3>
+        <p>
+          Salutations! My name is Leban Mohamed. I will soon graduate from the Northern Alberta Institute of Technology (NAIT).
+          This is where I keep keep some of my protfolio stuff.
+        </p>
+    </div>
+
+    <div class="gallery">
+
+    </div>
+
+
+</div>
+
+
+</body>
+<footer>
+  &copy; 2017 Leban Adbullahi Mohamed
+<ul>
+  <li><a href="https://twitter.com/LebanAMohamed"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+  <li><a href="https://www.reddit.com/user/SuperBigL/"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
+  <li><a href="https://github.com/TheBigL"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+  <li><a href="mailto:leban.mohamed@live.ca?subject=inquires"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>
+</ul>
+
+
+
+</footer>
+
+</html>

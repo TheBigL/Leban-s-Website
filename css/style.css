@@ -1,0 +1,125 @@
+/*
+============================
+Base Layout Styles
+============================
+*/
+
+.name
+{
+  text-decoration: none;
+}
+
+
+/*
+============================
+Base Styles
+============================
+*/
+
+/*----  Header ----*/
+header
+{
+  background-color: rgb(242, 69, 69);
+  width: 100%;
+  text-align: center;
+}
+
+header h1
+{
+  font-family: 'Merriweather', serif;
+}
+
+/*----  Navigation ----*/
+nav li
+{
+display: inline;
+margin: 2.25%;
+
+}
+
+
+/*---- Self Introduction----*/
+
+.self-intro
+{
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+
+
+
+}
+/*----  Footer ----*/
+footer
+{
+  text-align: center;
+  background-color: rgb(242, 69, 69);
+
+}
+
+footer li
+{
+  list-style-type: none;
+  display: inline;
+  margin: 2.25%
+}
+
+/*
+============================
+Link Stylings
+============================
+*/
+a
+{
+  transition: 2sec;
+  text-decoration: none;
+
+}
+
+a:link
+{
+  color: #000;
+}
+
+a:hover
+{
+  color: #01fc01;
+}
+
+a:visited
+{
+  color: #1a298b;
+}
+
+
+
+
+/*
+============================
+Media Queries
+============================
+*/
+
+@media (max-width:768px)
+{
+  footer
+  {
+    min-height: calc(100vh - 52px);
+  }
+
+  .main-nav li
+  {
+    display: block;
+  }
+
+}
+
+@media (min-width:768px) {
+
+  .main-nav li
+  {
+    display: inline;
+  }
+
+
+}
