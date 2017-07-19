@@ -54,6 +54,7 @@ footer
 {
   text-align: center;
   background-color: rgb(242, 69, 69);
+  min-height: calc(100vh - 52px);
 
 }
 
@@ -61,13 +62,12 @@ footer li
 {
   list-style-type: none;
   display: inline;
-  margin: 2.25%
+  margin: 2.5em 1.5em;
 }
 
-footer
-{
-  min-height: calc(100vh - 52px);
-}
+
+
+
 
 /*
 ============================
