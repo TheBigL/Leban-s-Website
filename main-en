@@ -20,7 +20,7 @@
 
 
   </header>
-  <div class="container">
+  <div class="container clearfix">
 
     <div class="self-intro">
       <h3>Welcome to my website!</h3>
@@ -33,11 +33,41 @@
     </div>
 
     <div class="portfolio">
+      <h4>Android Projects</h4>
+      <ul>
+        <li>
+          <figure>
+            <img src="img/nintendo-facts.png" alt="This app is a basic android app that displays random factoids about Nintendo.">
+            <figcaption>
+              This app is a basic android app that displays random factoids about Nintendo.
+            </figcaption>
+            </figure>
+        </li>
 
+        <li>
+          <figure>
+            <img src="img/watton.png" alt="This application is batton and stopwatch in one, hence the name Watton">
+            <figcaption>
+              This application is batton and stopwatch in one, hence the name Watton.
+            </figcaption>
+          </figure>
+        </li>
+
+        <li>
+          <h4>iOS Projects</h4>
+          <figure>
+            <img src="img/quiz.png" alt="This iOS quiz was build using Swift. I created this app as means to test my iOS skills.">
+            <figcaption>
+              This iOS quiz was build using Swift. I created this app as means to test my iOS skills.
+            </figcaption>
+          </figure>
+
+        </li>
+      </ul>
     </div>
 
 
-</div>
+    </div>
 
 
 </body>

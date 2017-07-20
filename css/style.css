@@ -22,6 +22,8 @@ header
   background-color: rgb(242, 69, 69);
   width: 100%;
   text-align: center;
+  top: 0;
+  position: fixed;
 }
 
 header h1
@@ -37,8 +39,15 @@ margin: 2.25%;
 
 }
 
+.container
+{
+  width: 100%;
+}
+
 
 /*---- Self Introduction----*/
+
+
 
 .self-intro
 {
@@ -49,12 +58,32 @@ margin: 2.25%;
 
 
 }
+
+.portfolio ul li
+{
+  float: left;
+  list-style: none;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+  padding-bottom: 4.5em;
+
+}
+
+/*----  ----*/
+.clearfix::after {
+		content: " ";
+		display: table;
+		clear: both;
+	}
 /*----  Footer ----*/
 footer
 {
   text-align: center;
   background-color: rgb(242, 69, 69);
-  min-height: calc(100vh - 52px);
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  padding: 2em 0;
 
 }
 
@@ -63,6 +92,19 @@ footer li
   list-style-type: none;
   display: inline;
   margin: 2.5em 1.5em;
+}
+
+/*
+============================
+Image Stylings
+============================
+*/
+
+img
+{
+  width: 100%;
+  margin: 2.5%;
+  border: 1px solid #000;
 }
 
 
@@ -122,6 +164,24 @@ Media Queries
   {
     display: inline;
   }
+
+
+  img
+  {
+    width: 28%;
+    display: inline;
+  }
+
+  img:nth-child(3)
+  {
+    width: 45%;
+  }
+
+  .portfolio ul li figure
+  {
+    text-align: center;
+  }
+
 
 
 
