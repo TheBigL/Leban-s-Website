@@ -76,7 +76,7 @@
 </body>
 <footer>
   &copy; 2017 Leban Adbullahi Mohamed
-<ul>
+<ul class="footer">
   <li><a href="https://twitter.com/LebanAMohamed"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
   <li><a href="https://www.reddit.com/user/SuperBigL/"><i class="fa fa-reddit-alien" aria-hidden="true"></i></a></li>
   <li><a href="https://github.com/TheBigL"><i class="fa fa-github" aria-hidden="true"></i></a></li>
