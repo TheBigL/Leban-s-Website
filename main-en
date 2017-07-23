@@ -8,6 +8,8 @@
 </head>
 <body>
   <header>
+
+    <div class="head-c">
     <a class="name" href="main-en"><h1>Leban Mohamed</h1></a>
     <H2>Software, Mobile and Web Developer</H2>
     <nav class="main-nav">
@@ -17,6 +19,7 @@
         <li><a href="#">JavaScript Projects</a></li>
       </ul>
     </nav>
+    </div>
 
 
   </header>

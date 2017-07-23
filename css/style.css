@@ -4,6 +4,11 @@ Base Layout Styles
 ============================
 */
 
+html
+{
+  box-sizing: border-box;
+}
+
 .name
 {
   text-decoration: none;
@@ -16,6 +21,12 @@ Base Styles
 ============================
 */
 
+/*---- Body ----*/
+body
+{
+  padding-top: 2.5rem;
+}
+
 /*----  Header ----*/
 header
 {
@@ -27,17 +38,27 @@ header
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
 }
 
-header h1
+html
 {
   font-family: 'Merriweather', serif;
 }
 
 /*----  Navigation ----*/
-nav li
+.main-nav
 {
-display: inline;
-margin: 2.25%;
 
+flex-wrap: wrap;
+width: 70%;
+margin-left: 1em;
+margin-right: 1em
+
+}
+
+.main-nav li
+{
+  list-style: none;
+  background-color: #2782dd;
+  margin: 2.25%;
 }
 
 .container
@@ -147,24 +168,51 @@ a:visited
 Media Queries
 ============================
 */
-
-@media (max-width:768px)
+@media (max-width: 767px)
 {
-
-
-  .main-nav li
+  .main-nav
   {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
+
 
 }
 
 @media (min-width:768px) {
 
-  .main-nav li
+.main-nav
+{
+  width: 100%;
+}
+
+.head-c
+{
+  display: inline-flex;
+  flex-direction: row;
+}
+
+.head-c h1, h2
+{
+  margin-right: auto;
+}
+
+.name
+{
+
+}
+
+  .main-nav ul
   {
-    display: inline;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+
   }
+
 
 
   img
