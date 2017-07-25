@@ -12,9 +12,9 @@
   <header class="header">
 
 
-    <a class="name" href="main-en"><h1>Leban Mohamed</h1></a>
-    <H2>Software Developer</H2>
     <nav>
+      <a href="main-en"><h1>Leban Mohamed</h1></a>
+      <H2>Software Developer</H2>
       <ul>
         <li><a href="about-me.html">About Me</a></li>
         <li><a href="#">Contact</a></li>
@@ -38,9 +38,12 @@
     </div>
 
     <div class="portfolio">
-      <h4>Android Projects</h4>
+
+<h5>Android Projects</h5>
       <ul>
+
         <li>
+
           <figure>
             <img src="img/nintendo-facts.png" alt="This app is a basic android app that displays random factoids about Nintendo.">
             <figcaption>
@@ -58,8 +61,13 @@
           </figure>
         </li>
 
+      </ul>
+
+  <h4>iOS Projects</h4>
+      <ul>
+
         <li>
-          <h4>iOS Projects</h4>
+
           <figure>
             <img src="img/quiz.png" alt="This iOS quiz was build using Swift. I created this app as means to test my iOS skills.">
             <figcaption>
@@ -68,6 +76,23 @@
           </figure>
 
         </li>
+      </ul>
+
+<h5>.NET Projects</h5>
+      <ul>
+
+        <li>
+
+          <figure>
+          <img src="img/ETools.png" alt="This project was a Co-operative one between me and a school colleague">
+          <figcaption>
+           My final project for .NET. Note that this was a collabrative effort with me and colleague.
+          </figcaption>
+          </figure>
+
+        </li>
+
+      </ul>
 
 
 

@@ -36,9 +36,6 @@ body
   top: 0;
   position: fixed;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.5);
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
 }
 
 html
@@ -51,12 +48,22 @@ nav
 {
 
 
-width: 50%;
+width: 100%;
 margin-left: 1em;
 margin-right: 1em;
+display: block;
 
 
 }
+
+nav li
+{
+  list-style: none;
+}
+
+
+
+
 
 
 
@@ -69,11 +76,7 @@ nav ul li:nth-child(3)
 
 
 
-.main-nav li
-{
-  list-style: none;
-  margin-right: 2.5%;
-}
+
 
 .container
 {
@@ -90,7 +93,7 @@ nav ul li:nth-child(3)
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  padding-top: 1.5em;
+  padding-top: 5em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,17 +104,24 @@ nav ul li:nth-child(3)
 
 }
 
+.self-intro p
+{
+  align-self: center;
+  max-width: 500px;
+}
+
 /*---- Portfolio----*/
 .portfolio ul
 {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
 }
 
 
 .portfolio ul li
 {
-  flex: 1, 200px, 0;
+  flex: 1 700px;
   list-style: none;
 
 
@@ -206,7 +216,8 @@ Media Queries
 */
 
 
-@media screen and (min-width:768px)  {
+@media (min-width:769px)
+{
 
 .header
 {
@@ -217,26 +228,27 @@ Media Queries
 .header h1
 {
   margin-right: 1.5em;
-  margin-left: 0.5em;
+  margin-left: 1.5em;
 }
 
-.header h2
-{
-  margin-right: auto;
-}
+
 
 nav ul
 {
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content:space-between;
+  justify-content:space-around;
+  flex-wrap: wrap;
+  flex-grow: 1;
 }
 
-.main-nav
+nav ul li
 {
-  width: 100%;
+  align-self: center;
 }
+
+
 
 .portfolio
 {
@@ -255,6 +267,12 @@ nav ul
   flex-grow: 1;
   flex-basis: 400px;
   max-width: 500px;
+  flex-wrap: wrap;
+}
+
+.portfolio ul li:nth-child(2)
+{
+  margin-bottom: 1.5em;
 }
 
 
@@ -271,32 +289,22 @@ nav ul
   justify-content: center;
 }
 
-  .main-nav
+  nav
   {
     padding-bottom: 1em;
   }
 
-  .main-nav ul
-  {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 1;
-  }
 
-  nav ul li:nth-child(2)
-  {
-    margin-right: 1em;
-  }
+
+
+
+
 
 
 
   img
   {
-    width: 28%;
-    display: inline;
+    width: 100%;
   }
 
   img:nth-child(3)
@@ -309,6 +317,10 @@ nav ul
     text-align: center;
   }
 
+}
+
+@media screen and (min-width:1160px)
+{
 
 
 
