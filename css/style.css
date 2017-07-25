@@ -28,6 +28,11 @@ body
 }
 
 /*----  Header ----*/
+header
+{
+  background-color: rgb(236, 101, 101);
+}
+
 .header
 {
   background-color: rgb(236, 101, 101);
@@ -93,7 +98,7 @@ nav ul li:nth-child(3)
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  padding-top: 5em;
+  padding-top: 10em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -223,12 +228,18 @@ Media Queries
 {
   display: flex;
   flex-direction: row;
+  padding-bottom: 2.5em;
 }
 
 .header h1
 {
   margin-right: 1.5em;
   margin-left: 1.5em;
+}
+
+.self-intro
+{
+  padding-top: 15em;
 }
 
 
@@ -319,8 +330,13 @@ nav ul li
 
 }
 
-@media screen and (min-width:1160px)
+@media screen and (min-width:1025px)
 {
+  nav
+  {
+    display: flex;
+    flex-direction: row;
+  }
 
 
 
