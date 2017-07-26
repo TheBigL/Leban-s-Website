@@ -195,6 +195,16 @@ nav ul li:nth-child(3)
 		display: table;
 		clear: both;
 	}
+
+  /*---- Contact ----*/
+  .contact
+  {
+    padding-top: 15em;
+    justify-content: center;
+    max-width: 400px;
+    text-align: center;
+    align-items: center;
+  }
 /*----  Footer ----*/
 footer
 {
