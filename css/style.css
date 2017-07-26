@@ -61,6 +61,17 @@ display: block;
 
 }
 
+nav a
+{
+  transition-duration: 1s;
+}
+
+nav a:hover
+{
+
+  color: rgba(255, 255, 255, 0.5);
+}
+
 nav li
 {
   list-style: none;
@@ -133,7 +144,7 @@ nav ul li:nth-child(3)
 
 }
 
-/*----  ----*/
+/*---- Clearfix ----*/
 .clearfix::after {
 		content: " ";
 		display: table;
@@ -168,6 +179,21 @@ footer li
   list-style-type: none;
   display: inline;
   margin: 2.5em 1.5em;
+}
+
+/*----- Transitions-----*/
+
+
+
+
+footer li
+{
+  transition-duration: 1s;
+}
+
+footer li:hover
+{
+  background-color: rgba(90, 146, 204, 0.5);
 }
 
 /*
