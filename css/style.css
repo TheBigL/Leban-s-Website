@@ -9,6 +9,11 @@ html
   box-sizing: border-box;
 }
 
+body
+{
+  background-color: rgb(191, 191, 232);
+}
+
 .name
 {
   text-decoration: none;
@@ -38,13 +43,13 @@ body
 /*----  Header ----*/
 header
 {
-  background-color: rgb(236, 101, 101);
+  background-color: rgb(241, 118, 118);
   z-index: 100;
 }
 
 .header
 {
-  background-color: rgb(236, 101, 101);
+  background-color: rgb(241, 118, 118);
   width: 100%;
   text-align: center;
   top: 0;
@@ -209,7 +214,7 @@ nav ul li:nth-child(3)
 footer
 {
   text-align: center;
-  background-color: rgb(236, 101, 101);
+  background-color: rgb(241, 118, 118);
   bottom: 0;
   position: relative;
   width: 100%;
@@ -302,7 +307,15 @@ Media Queries
 ============================
 */
 
+@media screen and (max-width: 768px)
+{
+  .header
+  {
+    display: flex;
+    flex-direction: column;
+  }
 
+}
 @media (min-width:769px)
 {
 
@@ -428,6 +441,12 @@ nav ul li
   {
     display: flex;
     flex-direction: row;
+    padding-bottom: 0;
+  }
+
+  .intro
+  {
+    padding-top: 0
   }
 
 
