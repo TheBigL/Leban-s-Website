@@ -323,7 +323,7 @@ Media Queries
 {
   display: flex;
   flex-direction: row;
-  padding-bottom: 2.5em;
+  padding-bottom: 0.5em;
 }
 
 .about-me
@@ -448,6 +448,8 @@ nav ul li
   {
     padding-top: 0
   }
+
+
 
 
 
