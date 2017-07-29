@@ -11,7 +11,7 @@ html
 
 body
 {
-  background-color: rgb(191, 191, 232);
+  background-color: rgb(255, 255, 255);
 }
 
 .name
@@ -25,6 +25,8 @@ body
   height: 60%;
   transform: rotate(270deg);
   margin-top: auto;
+  padding-bottom: 5em;
+  padding-top: 2.5em;
 }
 
 
@@ -43,13 +45,13 @@ body
 /*----  Header ----*/
 header
 {
-  background-color: rgb(241, 118, 118);
+  background-color: rgb(242, 67, 67);
   z-index: 100;
 }
 
 .header
 {
-  background-color: rgb(241, 118, 118);
+  background-color: rgb(242, 67, 67);
   width: 100%;
   text-align: center;
   top: 0;
@@ -192,6 +194,7 @@ nav ul li:nth-child(3)
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 /*---- Clearfix ----*/
@@ -214,7 +217,7 @@ nav ul li:nth-child(3)
 footer
 {
   text-align: center;
-  background-color: rgb(241, 118, 118);
+  background-color: rgb(242, 67, 67);
   bottom: 0;
   position: relative;
   width: 100%;
