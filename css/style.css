@@ -60,6 +60,18 @@ header
   padding-bottom: -5em;
 }
 
+.info-button
+{
+  background-color: rgb(242, 67, 67);
+  height: 2em;
+  width: 100%;
+}
+
+.more-info
+{
+  text-align: center;
+}
+
 html
 {
   font-family: 'Merriweather', serif;
