@@ -3,14 +3,14 @@ $(".more-info").hide();
 
 $(".info-button").click(function()
 {
-  if($(this).next().is(":hidden"))
+  if($(this).prev().is(":hidden"))
   {
-    $(this).next().toggle();
+    $(this).prev().fadeIn(500).slideDown(500);
     $(this).text("Less Info");
   }
 
   else {
-    $(this).next().toggle();
+    $(this).prev().fadeOut(500).slideUp(500);
     $(this).text("More Info");
 
   }

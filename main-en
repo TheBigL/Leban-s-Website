@@ -49,11 +49,11 @@
             <img src="img/nintendo-facts.png" alt="This app is a basic android app that displays random factoids about Nintendo.">
             <figcaption>
               A Simple fact app for Android.
-              <button type="button" name="more" class="info-button">More Info</button>
               <div class="more-info">
               This app is a basic android app that displays random factoids about Nintendo.
               Simply press the button and you will get another fact about Nintendo development, and game history.
               </div>
+              <button type="button" name="more" class="info-button">More Info</button>
             </figcaption>
             </figure>
         </li>
@@ -63,13 +63,13 @@
             <img src="img/watton.png" alt="This application is batton and stopwatch in one, hence the name Watton">
             <figcaption>
               Android app for exercise.
-              <button type="button" name="more" class="info-button">More Info</button>
               <div class="more-info">
               This application is batton and stopwatch in one, hence the name Watton.
               First, the app will ask the team member's names and then it will take you to a stopwatch.
               When the user is ready to run, he or she will press the start button. When the run is over, just press the "Pass" button
               and the next runner will go. When all users are done running the user will press "Finish" and the results can be displayed on a graph by pressing "Time".
               </div>
+              <button type="button" name="more" class="info-button">More Info</button>
             </figcaption>
           </figure>
         </li>
@@ -85,10 +85,9 @@
             <img src="img/quiz.png" alt="This iOS quiz was build using Swift. I created this app as means to test my iOS skills.">
             <figcaption>
               Quiz app I built using Swift 3.0
-              <button type="button" name="more" class="info-button">More Info</button>
               <div class="more-info">This iOS quiz was build using Swift. The user can select the difficulty and number of questions, and category of questions.
               The user will then answer those questions, if the user loses all their lives, it's Game Over!</div>
-
+              <button type="button" name="more" class="info-button">More Info</button>
             </figcaption>
           </figure>
 
@@ -104,13 +103,18 @@
           <img src="img/ETools.png" alt="This project was a Co-operative one between me and a school colleague">
           <figcaption>
             Final project for Application Development
-            <button type="button" name="more" class="info-button">More Info</button>
             <div class="more-info">This project was a class final that I did with a colleague. I did the purchasing section.
-                       The user will need to select a vendor and click "Start Order".
+                       The user will need to select a vendor and click "Start Order".<br>
+                       
                        From there, the user will need to select an order that is connected to the vendor and click "Get Order X"
-                       Next, the user can add to or delete from an item attached with an order. Alternatively, the user can delete an entire order and start again.
+                       Next, the user can add to or delete from an item attached with the Order.<br>
+
+                       Alternatively, the user can delete an entire order and start again.<br>
+
                        If the user is satisfited with the Order, the user click "Place Order" to set the changed to the Order permanently and place the order into a database for
                        the order to be tracked.</div>
+            <button type="button" name="more" class="info-button">More Info</button>
+
 
 
           </figcaption>

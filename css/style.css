@@ -65,6 +65,13 @@ header
   background-color: rgb(242, 67, 67);
   height: 2em;
   width: 100%;
+  transition-duration: 0.8s;
+  border: 1px solid #000;
+}
+
+.info-button:hover
+{
+  background-color: rgb(67,67,242);
 }
 
 .more-info
