@@ -1,0 +1,7 @@
+function Application()
+{
+
+}
+
+
+ReactDOM.render()

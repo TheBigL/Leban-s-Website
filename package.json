@@ -1,8 +1,8 @@
 {
-  "name": "Leban Mohamed's website",
+  "name": "Leban-s-Website",
   "version": "1.0",
-  "description": "There's gonna be lots of React.js Apps in my website",
-  "main": "index.js",
+  "description": "This is my website I'll have a lot of things and app on it. (Mostly React.js)",
+  "main": "main-en",
   "repository": "https://github.com/TheBigL/Leban-s-Website.git",
   "author": "Leban Mohamed <lmohamed1@studentmail.nait.ca>",
   "license": "MIT",
