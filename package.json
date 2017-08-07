@@ -1,0 +1,13 @@
+{
+  "name": "Leban Mohamed's website",
+  "version": "1.0",
+  "description": "There's gonna be lots of React.js Apps in my website",
+  "main": "index.js",
+  "repository": "https://github.com/TheBigL/Leban-s-Website.git",
+  "author": "Leban Mohamed <lmohamed1@studentmail.nait.ca>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  }
+}
