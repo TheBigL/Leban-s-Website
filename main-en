@@ -19,7 +19,7 @@
       <ul>
         <li><a href="about-me.html">About Me</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="#">JavaScript Projects</a></li>
+        <li><a href="jsprojects.html">JavaScript Projects</a></li>
       </ul>
     </nav>
     </div>
@@ -105,7 +105,7 @@
             Final project for Application Development
             <div class="more-info">This project was a class final that I did with a colleague. I did the purchasing section.
                        The user will need to select a vendor and click "Start Order".<br>
-                       
+
                        From there, the user will need to select an order that is connected to the vendor and click "Get Order X"
                        Next, the user can add to or delete from an item attached with the Order.<br>
 
