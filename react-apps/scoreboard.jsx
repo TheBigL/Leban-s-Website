@@ -1,7 +1,0 @@
-function Application()
-{
-
-}
-
-
-ReactDOM.render()
