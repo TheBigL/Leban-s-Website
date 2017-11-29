@@ -40,18 +40,19 @@ Base Styles
 body
 {
   padding-top: 5rem;
+  background-color: rgb(171, 231, 171);
 }
 
 /*----  Header ----*/
 header
 {
-  background-color: rgb(245, 45, 45);
+  background-color: rgb(219, 116, 116);
   z-index: 100;
 }
 
 .header
 {
-  background-color: rgb(245, 45, 45);
+  background-color: rgb(219, 116, 116);
   width: 100%;
   text-align: center;
   top: 0;
@@ -62,7 +63,7 @@ header
 
 .info-button
 {
-  background-color: rgb(245, 45, 45);
+  background-color: rgb(219, 116, 116);
   height: 2em;
   width: 100%;
   transition-duration: 0.8s;
@@ -241,7 +242,7 @@ nav ul li:nth-child(3)
 footer
 {
   text-align: center;
-  background-color: rgb(245, 45, 45);
+  background-color: rgb(219, 116, 116);
   bottom: 0;
   position: relative;
   width: 100%;
