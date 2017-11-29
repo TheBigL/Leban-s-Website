@@ -45,13 +45,13 @@ body
 /*----  Header ----*/
 header
 {
-  background-color: rgb(242, 67, 67);
+  background-color: rgb(245, 45, 45);
   z-index: 100;
 }
 
 .header
 {
-  background-color: rgb(242, 67, 67);
+  background-color: rgb(245, 45, 45);
   width: 100%;
   text-align: center;
   top: 0;
@@ -62,7 +62,7 @@ header
 
 .info-button
 {
-  background-color: rgb(242, 67, 67);
+  background-color: rgb(245, 45, 45);
   height: 2em;
   width: 100%;
   transition-duration: 0.8s;
@@ -71,7 +71,7 @@ header
 
 .info-button:hover
 {
-  background-color: rgb(67,67,242);
+  background-color: rgb(155, 155, 232);
 }
 
 .more-info
@@ -107,7 +107,7 @@ nav a
 nav a:hover
 {
 
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(48, 190, 228, 0.8);
 }
 
 nav li
@@ -241,7 +241,7 @@ nav ul li:nth-child(3)
 footer
 {
   text-align: center;
-  background-color: rgb(242, 67, 67);
+  background-color: rgb(245, 45, 45);
   bottom: 0;
   position: relative;
   width: 100%;
