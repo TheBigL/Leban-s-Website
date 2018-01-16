@@ -40,13 +40,13 @@ Base Styles
 body
 {
   padding-top: 5rem;
-  background-color: rgb(197, 208, 197);
+  background-color: rgb(249, 255, 249);
 }
 
 /*----  Header ----*/
-header
+header, footer
 {
-  background-color: rgb(219, 116, 116);
+  background: linear-gradient(to bottom right, rgb(231, 73, 73), rgb(243, 30, 30)) ;
   z-index: 100;
 }
 
@@ -108,7 +108,7 @@ nav a
 nav a:hover
 {
 
-  color: rgba(48, 190, 228, 0.8);
+  color: rgba(82, 83, 83, 0.8);
 }
 
 nav li
